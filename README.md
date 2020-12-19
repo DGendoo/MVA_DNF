@@ -41,41 +41,50 @@ To mimic our software environment the following R packages should be installed. 
 
 
 ```
-R version 3.3.1 (2016-06-21)
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
-Running under: OS X 10.10.3 (Yosemite)
+R version 3.6.0 (2019-04-26)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Mojave 10.14.6
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
 
 locale:
-[1] en_CA.UTF-8/en_CA.UTF-8/en_CA.UTF-8/C/en_CA.UTF-8/en_CA.UTF-8
+[1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
 
 attached base packages:
- [1] grid      stats4    parallel  stats     graphics  grDevices utils     datasets  methods   base     
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] GenVisR_1.0.4              plotrix_3.6-4              vcfR_1.4.0                
- [4] scales_0.4.1               VennDiagram_1.6.17         futile.logger_1.4.3       
- [7] VariantAnnotation_1.18.7   Rsamtools_1.24.0           Biostrings_2.40.2         
-[10] XVector_0.12.1             SummarizedExperiment_1.2.3 Biobase_2.32.0            
-[13] GenomicRanges_1.24.3       GenomeInfoDb_1.8.7         IRanges_2.6.1             
-[16] S4Vectors_0.10.3           copynumber_1.12.0          BiocGenerics_0.18.0       
-[19] gplots_3.0.1               RCircos_1.2.0              pheatmap_1.0.8            
-[22] reshape2_1.4.2            
+ [1] RColorBrewer_1.1-2   gplots_3.0.1.1       ggplot2_3.3.2        GSVA_1.32.0          GSA_1.03.1          
+ [6] piano_2.0.2          snowfall_1.84-6.1    snow_0.4-3           proxy_0.4-24         reshape2_1.4.3      
+[11] survcomp_1.34.0      prodlim_2019.10.13   survival_3.1-7       ROCR_1.0-11          SNFtool_2.3.0       
+[16] org.Hs.eg.db_3.8.2   annotate_1.62.0      XML_3.98-1.20        AnnotationDbi_1.46.1 IRanges_2.18.3      
+[21] S4Vectors_0.22.1     Biobase_2.44.0       BiocGenerics_0.30.0  fingerprint_3.5.7    rcdk_3.5.0          
+[26] rcdklibs_2.3         rJava_0.9-13         apcluster_1.4.8      PharmacoGx_1.14.2    fmsb_0.6.3          
+[31] pheatmap_1.0.12     
 
 loaded via a namespace (and not attached):
- [1] Rcpp_0.12.9             ape_4.0                 lattice_0.20-34         gtools_3.5.0           
- [5] rprojroot_1.2           assertthat_0.1          digest_0.6.11           plyr_1.8.4             
- [9] backports_1.0.5         futile.options_1.0.0    evaluate_0.10           RSQLite_1.1-2          
-[13] ggplot2_2.2.1           zlibbioc_1.18.0         GenomicFeatures_1.24.5  lazyeval_0.2.0         
-[17] gdata_2.17.0            vegan_2.4-2             Matrix_1.2-7.1          rmarkdown_1.6          
-[21] pinfsc50_1.1.0          BiocParallel_1.6.6      stringr_1.2.0           RCurl_1.95-4.8         
-[25] biomaRt_2.28.0          munsell_0.4.3           rtracklayer_1.32.2      mgcv_1.8-16            
-[29] htmltools_0.3.5         gridExtra_2.2.1         tibble_1.2              XML_3.98-1.5           
-[33] permute_0.9-4           viridisLite_0.1.3       GenomicAlignments_1.8.4 MASS_7.3-45            
-[37] bitops_1.0-6            nlme_3.1-128            gtable_0.2.0            DBI_0.5-1              
-[41] magrittr_1.5            KernSmooth_2.23-15      stringi_1.1.2           viridis_0.3.4          
-[45] lambda.r_1.1.9          RColorBrewer_1.1-2      tools_3.3.1             FField_0.1.0           
-[49] BSgenome_1.40.1         AnnotationDbi_1.34.4    colorspace_1.3-2        cluster_2.0.5          
-[53] caTools_1.17.1          memoise_1.0.0           knitr_1.15.1                         
+  [1] fgsea_1.10.1         colorspace_1.4-1     ellipsis_0.3.0       lsa_0.73.1           rstudioapi_0.10     
+  [6] SnowballC_0.6.0      DT_0.10              bit64_0.9-7          splines_3.6.0        geneplotter_1.62.0  
+ [11] shinythemes_1.1.2    SuppDists_1.1-9.4    heatmap.plus_1.3     itertools_0.1-3      jsonlite_1.6        
+ [16] magicaxis_2.0.7      alluvial_0.1-2       cluster_2.1.0        png_0.1-7            graph_1.62.0        
+ [21] shinydashboard_0.7.1 shiny_1.4.0          ExPosition_2.8.23    mapproj_1.2.6        compiler_3.6.0      
+ [26] prettyGraphs_2.1.6   assertthat_0.2.1     Matrix_1.2-17        fastmap_1.0.1        limma_3.40.6        
+ [31] later_1.0.0          visNetwork_2.0.8     htmltools_0.4.0      tools_3.6.0          igraph_1.2.4.1      
+ [36] gtable_0.3.0         glue_1.3.1           RANN_2.6.1           dplyr_0.8.3          maps_3.3.0          
+ [41] fastmatch_1.1-0      Rcpp_1.0.3           slam_0.1-46          vctrs_0.3.1          gdata_2.18.0        
+ [46] iterators_1.0.12     stringr_1.4.0        mime_0.7             lifecycle_0.2.0      gtools_3.8.1        
+ [51] MASS_7.3-51.4        scales_1.1.1         promises_1.1.0       relations_0.6-9      sets_1.0-18         
+ [56] memoise_1.1.0        gridExtra_2.3        downloader_0.4       rmeta_3.0            stringi_1.4.3       
+ [61] RSQLite_2.1.2        NISTunits_1.0.1      plotrix_3.7-6        caTools_1.17.1.2     BiocParallel_1.18.1 
+ [66] lava_1.6.6           rlang_0.4.6          pkgconfig_2.0.3      bitops_1.0-6         pracma_2.2.5        
+ [71] lattice_0.20-38      purrr_0.3.3          survivalROC_1.0.3    htmlwidgets_1.5.1    bit_1.1-14          
+ [76] tidyselect_1.1.0     GSEABase_1.46.0      plyr_1.8.6.9000      magrittr_1.5         R6_2.4.0            
+ [81] bootstrap_2019.6     DBI_1.0.0            sm_2.2-5.6           withr_2.1.2          pillar_1.4.4        
+ [86] RCurl_1.95-4.12      tibble_3.0.1         crayon_1.3.4         KernSmooth_2.23-16   grid_3.6.0          
+ [91] data.table_1.12.6    marray_1.62.0        blob_1.2.0           digest_0.6.22        xtable_1.8-4        
+ [96] httpuv_1.5.2         munsell_0.5.0        celestial_1.4.6      tcltk_3.6.0          shinyjs_1.0           
 
 ```
 
