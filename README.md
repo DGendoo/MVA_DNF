@@ -17,9 +17,11 @@ Please email d.gendoo@bham.ac.uk or deena.gendoo1984@gmail.com
 
 ## Introduction to the Analysis
 
-This repository hosts code to analyze 
+This repository hosts code for the MVA-DNF algorithm, using a pathway-centric approach to identify top drug agents, like dipyridamole, that potentiate statin-induced tumor cell death by targeting the mevalonate pathway. 
 
+An integrative pharmacogenomics pipeline has been developed to identify agents that were similar to dipyridamole at the level of drug structure, in vitro sensitivity and molecular perturbation, while enriching for compounds expected to target the mevalonate pathway. This resulted in the MVA-DNF (mevalonate drug network fusion). 
 
+Further code assesses the synergistic ability of the top DP-like compounds with Fluvastatin, and their effect on the mevalonate pathway. 
 
 ## The Analysis 
 
