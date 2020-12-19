@@ -1,0 +1,84 @@
+CellLine	PAM50	SCMOD2
+BT-20	Basal	Basal
+BT-549	Basal	Basal
+CAL-120	Basal	Basal
+HBL-100	Basal	Basal
+HCC1143	Basal	Basal
+HCC1187	Basal	Basal
+HCC1395	Basal	Basal
+HCC1569	Basal	Basal
+HCC1806	Basal	Basal
+HCC1937	Basal	Basal
+HCC3153	Basal	Basal
+HCC38	Basal	Basal
+HCC70	Basal	Basal
+HDQ-P1	Basal	Basal
+Hs-578-T	Basal	Basal
+JIMT-1	Basal	HER2
+MDA-MB-157	Basal	Basal
+MDA-MB-436	Basal	Basal
+MDA-MB-468	Basal	Basal
+MX-1	Basal	Basal
+SK-BR-7	Normal	Basal
+SUM 149PT	Basal	Basal
+SUM 159PT	Basal	Basal
+CAL-85-1	Basal	Basal
+HCC1599	Basal	Basal
+MB 157	Basal	Basal
+MCF10A	Normal	Basal
+SUM 1315M02	Basal	Basal
+SUM 229PE	Basal	Basal
+UACC-3199	Basal	Basal
+AU565	Her2	HER2
+BT-474	LumB	HER2
+CAL-148	Her2	LumB
+EVSA-T	Her2	Basal
+HCC1419	LumA	HER2
+HCC1954	Her2	HER2
+HCC202	Her2	HER2
+MDA-MB-361	Her2	HER2
+OCUB-M	Her2	HER2
+SK-BR-3	Her2	HER2
+SK-BR-5	Her2	LumB
+UACC-893	Her2	HER2
+DU-4475	Her2	Basal
+HCC1008	Her2	LumB
+HCC2688	Basal	Basal
+MDA-MB-415	LumA	LumB
+MDA-MB-453	Her2	LumB
+SUM 52PE	Her2	LumB
+SUM185PE	Her2	LumB
+SUM225CWN	Normal	HER2
+EFM-192A	LumA	HER2
+HCC2218	LumA	LumB
+HCC812	LumA	HER2
+SUM 190	LumA	HER2
+ZR-75-30	LumA	HER2
+600MPE	LumB	LumB
+CAL-51	LumB	Basal
+CAMA-1	LumB	LumB
+EFM-19	LumB	LumB
+HCC1428	LumB	LumB
+HCC2185	LumB	Basal
+KPL-1	LumB	LumB
+LY2	LumB	LumB
+MCF7	LumB	LumB
+MDA-MB-134-VI	LumB	LumB
+MDA-MB-175-VII	LumB	LumB
+MDA-MB-231	LumB	Basal
+MDA-MB-330	LumB	HER2
+MFM-223	LumB	LumB
+SW 527	LumB	Basal
+T47D	LumB	LumB
+UACC-812	LumB	HER2
+ZR-75-1	LumB	LumB
+BT-483	LumB	LumB
+HCC1500	LumB	LumB
+HCC712	LumB	LumB
+SUM44PE	LumB	LumB
+ZR75B	LumB	LumB
+184A1	Normal	Basal
+184B5	Normal	Basal
+MA-CLS-2	Normal	Basal
+MCF12A	Normal	Basal
+SUM102PT	Normal	Basal
