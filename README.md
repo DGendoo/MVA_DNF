@@ -3,9 +3,11 @@
 
 ## Publication
 
-This code and analysis pipeline was concieved, designed and developed by **Deena M.A. Gendoo** for the following publication: 
+This MVA-DNF analysis pipeline and code was concieved, designed and developed by **Deena M.A. Gendoo** for the following publication: 
 
 **_Computational pharmacogenomics screen identifies synergistic statin-compound combinations as anti-breast cancer therapies_**
+
+Further Bioinformatics Analysis on Drug combinations is also developed by **Wail B-Alawi**
 
 **Please cite:** 
 Jenna van Leeuwen, Wail Ba-Alawi, Emily Branchard, Joseph Longo, Jennifer Silvester, David W. Cescon, Benjamin Haibe-Kains, Linda Z. Penn, Deena M.A. Gendoo. bioRxiv 2020.09.07.286922; doi: https://doi.org/10.1101/2020.09.07.286922 
