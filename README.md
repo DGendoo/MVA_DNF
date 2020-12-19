@@ -9,11 +9,14 @@ This MVA-DNF analysis pipeline and code was concieved, designed and developed by
 
 Further Bioinformatics Analysis on Drug combinations is also developed by **Wail B-Alawi** and can be found in the subfolder Wail_ComboAnalysis
 
-**Publication:** 
-Jenna van Leeuwen, Wail Ba-Alawi, Emily Branchard, Joseph Longo, Jennifer Silvester, David W. Cescon, Benjamin Haibe-Kains, Linda Z. Penn, Deena M.A. Gendoo. bioRxiv 2020.09.07.286922; doi: https://doi.org/10.1101/2020.09.07.286922 
-
 **Questions or Comments:** 
 Please email d.gendoo@bham.ac.uk or deena.gendoo1984@gmail.com
+
+## Publication: 
+
+**Please cite:** 
+Jenna van Leeuwen, Wail Ba-Alawi, Emily Branchard, Joseph Longo, Jennifer Silvester, David W. Cescon, Benjamin Haibe-Kains, Linda Z. Penn, Deena M.A. Gendoo. bioRxiv 2020.09.07.286922; doi: https://doi.org/10.1101/2020.09.07.286922 
+
 
 ## Introduction to the Analysis
 
