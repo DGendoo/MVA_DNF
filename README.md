@@ -99,4 +99,4 @@ The main folder contains scripts to:
 4. Compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity
 The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
 
-The subfolder Wail_ComboAnalysis contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin. The output of these scripts is found within the publication (Figure 4, Suppl Figure S6, Suppl Figure S7). 
+The subfolder Wail_ComboAnalysis contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin. The output of these scripts is found within the publication (Figure 4, Suppl Figure S6, Suppl Figure S7, Suppl Figure S8). 
