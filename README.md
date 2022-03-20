@@ -95,7 +95,7 @@ Once the packages are installed, please download this github repository.
 The main folder contains scripts to:
 1. Generate the MVA-DNF matrix
 2. Identify top drug agents to Dipyridamole, using permutation testing
-3. Generate heatmaps to show up/down regulated genes due tCo drug treatment (drug perturbation signatures) for Dipryidamole (DP) and DP-like drugs
+3. Generate heatmaps to show up/down regulated genes due to drug treatment (drug perturbation signatures) for Dipryidamole (DP) and DP-like drugs
 4. Compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity
 The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
 
