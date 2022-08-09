@@ -97,7 +97,6 @@ The **main folder** contains scripts to run the MVA-DNF algorithm and associated
 *Supplementary Figure S1*   
 *Supplementary Table1*  
 
-The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). 
 1. The scripts  **DeenaGendoo_Generate_MVA_DNF.R** and **DeenaGendoo_PermutationTestAndFiltering.R** are used to generate the MVA-DNF matrix, and then identify top drug agents to Dipryidamole, using permutation testing
 2. The script **DeenaGendoo_Heatmap_DrugPertSigs.R** generate heatmaps to show up/down regulated genes due to drug treatment (drug perturbation signatures) for Dipryidamole (DP) and DP-like drugs
 3. The script **DeenaGendoo_CompareLayerContributions_Dec2021.R** is used to compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity. Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
