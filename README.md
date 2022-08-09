@@ -103,7 +103,8 @@ The output of these scripts is found within the publication (Figure 1, Suppl Fig
 3. The script **DeenaGendoo_CompareLayerContributions_Dec2021.R** is used to compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity. Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
 
 
-The subfolder **Wail_ComboAnalysis** contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin, and associated output of the manuscript for:  
+The subfolder **Wail_ComboAnalysis** contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin.
+The script **combo_analysis.R** is used to generate associated output of the manuscript for:  
 *Figure 4*  
 *Supplementary Figure S6*  
 *Supplementary Figure S7*  
