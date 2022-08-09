@@ -92,10 +92,10 @@ loaded via a namespace (and not attached):
 
 Once the packages are installed, please download this github repository to run the code. 
 
-The **main folder** contains scripts to run the MVA-DNF algorithm and associated output of the manuscript for:
-*Figure 1* 
-*Supplementary Figure S1* 
-*Supplementary Table1*
+The **main folder** contains scripts to run the MVA-DNF algorithm and associated output of the manuscript for:  
+*Figure 1*   
+*Supplementary Figure S1*   
+*Supplementary Table1*  
 
 The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). 
 1. The scripts  **DeenaGendoo_Generate_MVA_DNF.R** and **DeenaGendoo_PermutationTestAndFiltering.R** are used to generate the MVA-DNF matrix, and then identify top drug agents to Dipryidamole, using permutation testing
@@ -103,8 +103,8 @@ The output of these scripts is found within the publication (Figure 1, Suppl Fig
 3. The script **DeenaGendoo_CompareLayerContributions_Dec2021.R** is used to compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity. Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
 
 
-The subfolder **Wail_ComboAnalysis** contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin, and associated output of the manuscript for:
-*Figure 4*
-*Supplementary Figure S6*
-*Supplementary Figure S7*
-*Supplementary Figure S8*  
+The subfolder **Wail_ComboAnalysis** contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin, and associated output of the manuscript for:  
+*Figure 4*  
+*Supplementary Figure S6*  
+*Supplementary Figure S7*  
+*Supplementary Figure S8*    
