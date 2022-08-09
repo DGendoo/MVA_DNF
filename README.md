@@ -90,13 +90,21 @@ loaded via a namespace (and not attached):
 
 ### Running the R Scripts
 
-Once the packages are installed, please download this github repository. 
+Once the packages are installed, please download this github repository to run the code. 
 
-The main folder contains scripts to:
-1. Generate the MVA-DNF matrix
-2. Identify top drug agents to Dipyridamole, using permutation testing
-3. Generate heatmaps to show up/down regulated genes due to drug treatment (drug perturbation signatures) for Dipryidamole (DP) and DP-like drugs
-4. Compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity
-The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
+The **main folder** contains scripts to run the MVA-DNF algorithm and associated output of the manuscript for:
+*Figure 1* 
+*Supplementary Figure S1* 
+*Supplementary Table1*
 
-The subfolder Wail_ComboAnalysis contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin. The output of these scripts is found within the publication (Figure 4, Suppl Figure S6, Suppl Figure S7, Suppl Figure S8). 
+The output of these scripts is found within the publication (Figure 1, Suppl Figure1, Suppl Table1). 
+1. The scripts  **DeenaGendoo_Generate_MVA_DNF.R** and **DeenaGendoo_PermutationTestAndFiltering.R** are used to generate the MVA-DNF matrix, and then identify top drug agents to Dipryidamole, using permutation testing
+2. The script **DeenaGendoo_Heatmap_DrugPertSigs.R** generate heatmaps to show up/down regulated genes due to drug treatment (drug perturbation signatures) for Dipryidamole (DP) and DP-like drugs
+3. The script **DeenaGendoo_CompareLayerContributions_Dec2021.R** is used to compare for any two drugs, whether the strength of the drug-drug relationships is a reflection of perturbation, sensitivity, or structural similarity. Specific files (Cytoscape files for Figure 1B) are also found in the Data folder. 
+
+
+The subfolder **Wail_ComboAnalysis** contains scripts for analysis of the synergy between the identified DP-like drugs and Fluvastatin, and associated output of the manuscript for:
+*Figure 4*
+*Supplementary Figure S6*
+*Supplementary Figure S7*
+*Supplementary Figure S8*  
