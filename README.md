@@ -26,6 +26,9 @@ An integrative pharmacogenomics pipeline has been developed to identify agents t
 
 Further code assesses the synergistic ability of the top DP-like compounds with Fluvastatin, and their effect on the mevalonate pathway. 
 
+## Data Availability
+The LINCS-L1000 dataset containing profiles of drug-treated cancer cell lines can be downloaded from NCBI GEO (GSE70138 and GSE92742, which contains Level2 data for epsilon probes/features that represent raw gene expression/GEX, rendered as a GCTX file). NCI-60 compound sensitivity data (with average z-score) can be downloaded as ‘DTP_NCI60_ZSCORE.xlsx’ from the Cellminer website using the link: < https://discover.nci.nih.gov/cellminer/loadDownload.do>  and selecting for ‘Compound activity: DTP NCI-60 ’. RPPA data is available from <http://neellab.github.io/bfg> and RNAseq data is available from Orcestra portal using the link: <https://www.orcestra.ca/pset/10.5281/zenodo.3905460>. Gene set collections for GSEA analysis can be downloaded from MSigDB < http://www.gsea-msigdb.org/gsea/msigdb/index.jsp>. Processed versions of these data are available on the 'data' folders of this repository. 
+
 ## The Analysis 
 
 We describe how to reproduce the statistical analysis as reported in the manuscript. To do this, please proceed to:
